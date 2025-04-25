@@ -26,14 +26,7 @@ $ pip install pokepy
 
 ## <img src='https://veekun.com/dex/media/pokemon/icons/195.png' height=35px> Usage
 
-Even simpler:
-
-```python
->>> import pokepy
->>> client = pokepy.V2Client()
->>> client.get_pokemon(14)
-<Pokemon - Kakuna>
-```
+[WIP]
 
 ## <img src='https://veekun.com/dex/media/pokemon/icons/194.png' height=35px>  Documentation
 
