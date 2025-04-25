@@ -7,7 +7,7 @@ information about randomly generated Pokemon. Enjoy!
 Simply click on the link to add the bot to your list of Discord Apps or your own Personal / Public Server!
 ### <a href="https://discord.com/oauth2/authorize?client_id=1365402539423694848">Click Here to Install the Bot</a>
 
-## <img src='https://veekun.com/dex/media/pokemon/icons/194.png' height=35px> Dependencies
+## <img src='https://veekun.com/dex/media/pokemon/icons/195.png' height=35px> Dependencies
 
 Active Discord Account required. Once available go to https://discord.com/developers/applications to create your first bot application then retrieve the Discord Bot Token. 
 This is required to run the Bot via your preferred IDE ( VS Code, Pycharm, etc.)
@@ -23,10 +23,6 @@ $ pip install python_dotenv
 ```sh
 $ pip install pokepy
 ```
-
-## <img src='https://veekun.com/dex/media/pokemon/icons/195.png' height=35px> Usage
-
-[WIP]
 
 ## <img src='https://veekun.com/dex/media/pokemon/icons/194.png' height=35px>  Documentation
 
