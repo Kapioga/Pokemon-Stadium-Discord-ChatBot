@@ -14,6 +14,8 @@ def Get_Response(user_input: str) -> str:
         return "See you, Trainer!"
     elif 'help' in lowered:
         return "What can I do for you, Trainer?"
+    elif 'yippee' in lowered:
+        return "YIPPEEE!!"
     elif 'how are you' in lowered:
         return choice([
             "Doing alright, thanks for asking!",

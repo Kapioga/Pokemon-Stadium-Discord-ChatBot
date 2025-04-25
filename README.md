@@ -33,7 +33,9 @@ Pokemon Images were pulled and referenced from the global JSON repo at https://v
 The Python Wrapper, PokePy, had been utilized to build this discord bot. 
 For more information, check the documentation at https://pokeapi.github.io/pokepy
 
-## <img src='https://veekun.com/dex/media/pokemon/icons/195.png' height=35px> Features
+## <img src='https://veekun.com/dex/media/pokemon/icons/195.png' height=35px> Screenshots
+[WIP]
+## <img src='https://veekun.com/dex/media/pokemon/icons/194.png' height=35px> Features
 
 * User Friendly
 * Available for Any Servers
