@@ -1,5 +1,8 @@
 from random import choice, randint
 
+from poke_requests import pokemon_image
+
+
 # dice_check :int = 0
 
 def Get_Response(user_input: str) -> str:
@@ -8,23 +11,24 @@ def Get_Response(user_input: str) -> str:
 
     if lowered == " ":
         return "Hey, Trainer! Are you still there?"
-    elif 'hello' in lowered:
+    elif 'pk.hello' in lowered:
         return "Hello, Trainer!"
-    elif 'bye' in lowered:
+    elif 'pk.bye' in lowered:
         return "See you, Trainer!"
-    elif 'help' in lowered:
+    elif 'pk.help' in lowered:
         return "What can I do for you, Trainer?"
-    elif 'yippee' in lowered:
+    elif 'pk.yippee' in lowered:
         return "YIPPEEE!!"
-    elif 'how are you' in lowered:
+    elif 'pk.how are you' in lowered:
         return choice([
             "Doing alright, thanks for asking!",
             "Never better!",
             "Im doing well!"
         ])
-    elif 'roll dice' in lowered:
-        dice_check: int = randint(1,1024)
-        return f' You rolled: {dice_check}'
+    elif 'pk.pokemon' in lowered:
+        dice_check: int = randint(1,1025)
+        # return f' You rolled: {dice_check}'
+        return pokemon_image(dice_check)
     else:
         return choice([" Could you repeat that? I dont understand....",
                        "What are you talking about?",
